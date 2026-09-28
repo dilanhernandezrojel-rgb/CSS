@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    font-size: 100px;
+    color: green;
+    text-shadow: 5px 5px 10px rgb(0, 106, 144);
+}
+
+@font-face {
+    font-family: "Undertale";
+    src: url("../fonts/flowey.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Deltarune";
+    src: url("../fonts/MonsterFriendFore.otf") format("opentype");
+}
+@font-face {
+    font-family: "Minecraft";
+    src: url("../fonts/Minecraft.ttf") format("truetype");
+}
+
+#P1{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: black;
+    color: white;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: white ridge 5px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 5px 3px 5px gray;
+    font-family: "Deltarune", sans-serif;
+}
+#P1:hover{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: white;
+    color: black;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: black ridge 5px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 5px 3px 5px gray;
+    font-family: "Deltarune", sans-serif;
+    transition: 0.5s ease all;
+    transform: scale(1.2);
+}
+#P2{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: black;
+    color: aqua;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: aqua ridge 5px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 5px 3px 5px aqua;
+    font-family: "Minecraft", sans-serif;
+}
+#P2:hover{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: black;
+    color: purple;
+    width: 500PX;
+    height: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: purple ridge 5px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 5px 3px 5px blueviolet;
+    font-family: "Minecraft", sans-serif;
+    transition: 0.5s ease all;
+    transform: scale(1.2);
+}
+#P3{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: black;
+    color: greenyellow;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: greenyellow ridge 5px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 5px 3px 5px rgb(107, 236, 107);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#P3:hover{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: black;
+    color: orange;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: orange ridge 5px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 5px 3px 5px orangered;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.5s ease all;
+    transform: scale(1.2);
+}
+#P4{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: black;
+    color:yellow;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: yellow 5px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 5px 3px 5px yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#P4:hover{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: black;
+    color: blue;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: blue ridge 5px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 5px 3px 5px aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s ease all;
+    transform: scale(1.2);
+}
+#P5{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: black;
+    color: gold;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: gold ridge 5px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 5px 3px 5px goldenrod;
+    font-family:'Courier New', Courier, monospace;
+}
+#P5:hover{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: black;
+    color: red;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: red ridge 5px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 5px 3px 5px pink;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.5s ease all;
+    transform: scale(1.2);
+}

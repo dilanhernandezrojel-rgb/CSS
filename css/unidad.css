@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    background-color: black;
+    color: white;
+}
+div{
+    display: block;
+    background: red;
+    margin: 10px auto;
+    color: yellow;
+}
+h2{
+    font-size: 50px;
+    background-color: black;
+    color: white;
+}
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: black;
+    color: white;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: white ridge 5px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 5px 3px 5px gray;
+    font-family: "Deltarune", sans-serif;
+}
+#uno{
+    width: 300px;
+    height: 300px;
+}
+#dos{
+    width: 300pt;
+    height: 300pt;
+}
+#tres{
+    width: 3in;
+    height: 3in;
+}
+#cuatro{
+    width: 30cm;
+    height: 30cm;
+}
+#cinco{
+    width: 30mm;
+    height: 30mm;
+}
+#seis{
+    width: 30pc;
+    height: 30pc;
+}
+#siete{
+    display: block;
+    width: 300q;
+    height: 300q;
+    background: red;
+    margin: 10q auto;
+    color: yellow;
+}
+/*Relativas*/
+#unoR{
+    width: 50%;
+    height: 50%;
+}
+#dosR{
+    width: 30em;
+    height: 30em;
+}
+#tresR{
+    width: 30lh;
+    height: 30lh;
+}
+#cuatroR{
+    width: 30cm;
+    height: 30cm;
+}
+#cincoR{
+    width: 30ex;
+    height: 30ex;
+}
+#seisR{
+    width: 30ch;
+    height: 30ch;
+}
+#sieteR{
+    width: 30cap;
+    height: 30cap;
+}
+#ocho{
+    width: 30ic;
+    height: 30ic;
+}
+

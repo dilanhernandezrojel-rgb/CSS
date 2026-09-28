@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 5px solid aqua;
+    margin: 10px auto;
+}
+#c1{
+    background: gold;
+}
+#c2{
+    background: red;
+}
+#c3{
+    background: aqua;
+}
+#c4{
+    background: #27F5A4;
+}
+#c5{
+    background: #EDDD53;
+}
+#c6{
+    background: #57C785;
+}
+#c7{
+    background: rgb(92, 240, 52);
+}
+#c8{
+    background: rgb(255, 212, 104);
+}
+#c9{
+    background: rgb(211, 55, 162);
+}
+#c10{
+    background: rgba(255, 0, 0, 0.455);
+}
+#c11{
+    background: rgba(218, 32, 156, 0.318);
+}
+#c12{
+    background: rgba(178, 123, 34, 0.682);
+}
+#c13{
+    background-color: hsl(120deg 25% 75%);
+}
+#c14{
+    background-color: hsl(141, 51%, 30%);
+}
+#c15{
+    background-color: hsl(360deg 0% 25%);
+}
+#c16{
+    background: linear-gradient(90deg,rgba(104, 42, 155, 1) 0%, rgba(83, 124, 237, 1) 100%);
+}
+#c17{
+    background: linear-gradient(90deg,rgba(42, 155, 119, 1) 0%, rgba(175, 237, 83, 1) 100%);
+}
+#c18{
+    background: linear-gradient(90deg,rgba(0, 255, 229, 1) 0%, rgba(255, 0, 0, 1) 100%);
+}
+#c19{
+    background: radial-gradient(circle,rgba(234, 255, 0, 1) 0%, rgba(255, 119, 0, 1) 100%);
+}
+#c20{
+    background: radial-gradient(circle,rgba(63, 251, 69, 1) 0%, rgba(252, 70, 70, 1) 100%);
+}
+#c21{
+    background: radial-gradient(circle,rgba(6, 150, 35, 1) 0%, rgba(184, 0, 9, 1) 100%);
+}
+#c22{
+    background-color: hwb(120deg 25% 75%);
+}
+#c23{
+    background-color: hwb(120 19% 54%);
+}
+#c24{
+    background-color: hwb(360deg 0% 25%);
+}
+#c25{
+    background: linear-gradient(90deg,rgba(42, 108, 155, 1) 50%, rgba(237, 129, 83, 1) 50%);
+}
+#c26{
+    background: linear-gradient(90deg,rgba(144, 42, 155, 1) 50%, rgba(229, 237, 83, 1) 50%);
+}
+#c27{
+    background: linear-gradient(90deg,rgba(0, 146, 199, 1) 50%, rgba(255, 89, 0, 1) 50%);
+}
+#c28{
+    background: linear-gradient(360deg,rgba(199, 0, 182, 1) 50%, rgba(10, 209, 0, 1) 50%);
+}
+#c29{
+    background: linear-gradient(360deg,rgba(201, 28, 43, 1) 50%, rgba(0, 118, 186, 1) 50%);
+}
+#c30{
+    background: linear-gradient(360deg,rgba(28, 201, 74, 1) 50%, rgba(186, 186, 0, 1) 50%);
+}
