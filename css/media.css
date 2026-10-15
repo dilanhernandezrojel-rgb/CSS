@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 2s all ease;
+}
+body{
+    text-align: center;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 10fr 1fr;
+}
+header{
+    background-color: rgb(92, 0, 128);
+}
+nav{
+    background-color: rgb(107, 0, 128);
+}
+main{
+    background-color: rgb(97, 0, 153);
+}
+footer{
+    background-color: rgb(162, 0, 255);
+}
+@media (min-width: 0px) and (max-width: 400px) {
+    body{
+        text-align: center;
+        color: white;
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 5fr 5fr;
+    }
+    main{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        background-color: aqua;
+    }
+    header{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-color: blue;
+    }
+    nav{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        background-color: blueviolet;
+    }
+    footer{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        background-color: turquoise;
+    }
+}
+@media (min-width: 400px) and (max-width: 767px) {
+    body{
+        text-align: center;
+        color: white;
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 10fr 1fr;
+    }
+    header{
+        background-color: rgb(92, 0, 128);
+    }
+    nav{
+        background-color: rgb(107, 0, 128);
+    }
+    main{
+        background-color: rgb(97, 0, 153);
+    }
+    footer{
+        background-color: rgb(162, 0, 255);
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    body{
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 10fr;
+    }
+    header{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-color: green;
+    }
+    nav{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        background-color: rgb(1, 181, 1);
+    }
+    main{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        background-color: rgb(59, 97, 2);
+    }
+    footer{
+        grid-column: 4/5;
+        grid-row: 1/2;
+        background-color: greenyellow;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1451px) {
+    body{
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 1fr 10fr 1fr;
+    }
+    header{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        background-color: orange;
+    }
+    nav{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        background-color: rgb(177, 116, 1);
+    }
+    main{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        background-color: rgb(106, 71, 7);
+    }
+    footer{
+        grid-column: 1/3;
+        grid-row: 3/4;
+        background-color: rgb(251, 192, 82);
+    }
+}
+

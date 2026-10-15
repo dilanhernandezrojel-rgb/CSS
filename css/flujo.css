@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Ejemplo{
+    background: darkblue;
+    color: white;
+    display: inline;
+}
+#Block{
+    background: darkred;
+    color: white;
+    display: block;
+}
+.inline-block {
+    background: green;
+    color: white;
+    display: inline-block;
+    width: 300px;
+}
+.list {
+    margin: 2.5rem;
+
+    & #obj {
+        background: rgb(0, 81, 128);
+        display: list-item;
+    }
+}
+
+.table {
+    display: table;
+    border: 1px solid green;
+
+    & .row {
+        display: table-row;
+    }
+    & .cell {
+        display: table-cell;
+        padding: 0.25rem;
+    }
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+}
+
+.item {
+    background: deeppink;
+}
+
+.middle {
+    display: contents;
+}
+
+#nada{
+    display: none;
+}

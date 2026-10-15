@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(33, 33, 33);
+}
+div{
+    color: white;
+    width: 200px;
+    height: 70px;
+    margin: 10px auto;
+}
+h3{
+    color: aqua;
+}
+h1{
+    color: greenyellow;
+}

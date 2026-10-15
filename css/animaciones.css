@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.a1{
+    width: 100px;
+    height: 100px;
+    animation: change-color 1s infinite;
+}
+@keyframes change-color{
+    from {background: aqua;}
+    to {background: purple;}
+}
+.a2{
+    width: 100px;
+    height: 100px;
+    animation: change-color2 1s infinite;
+}
+@keyframes change-color2{
+    0%  {background-color: aqua;}
+    10% {background-color: purple;}
+    20% {background-color: green;}
+    30% {background-color: orange;}
+    40% {background-color: yellow;}
+    50% {background-color: blue;}
+    60% {background-color: gold;}
+    70% {background-color: red;}
+    80% {background-color: pink;}
+    90% {background-color: white;}
+    100% {background-color: aqua;}
+}
+
+@keyframes move3 {
+    to {
+        transform: translateX(500px);
+        background: red;
+    }
+}
+
+.a3{
+    width: 100px;
+    height: 100px;
+    background: rgb(239, 98, 98);
+    animation:
+        move3 3s infinite 0s,
+        rotate3 3s infinite 3s;
+}
+
+@keyframes rotate3 {
+    to {
+        transform: rotate(360deg) scale(0.5);
+        background: indigo;
+    }
+}
+
+.a4 {
+    width: 100px;
+    height: 100px;
+    background: grey;
+    animation:
+    add 3s infinite 0s,
+    add 3s infinite 3s;
+}
+
+
+@keyframes add {
+    to {
+    transform: translateX(500px);
+    background: red;
+    }
+}
+
+@keyframes add {
+    to {
+        transform: rotate(360deg) scale(0.5);
+        background: blue;
+    }
+}
+
+.M {
+    width: 52px;
+    height: 80px;
+    background-image: url("../img/Mel/M1.png");
+    animation:
+        walk 0.75s steps(2) infinite,
+        move2 6s linear normal infinite,
+        mirror 6s steps(1) normal infinite;
+}
+
+@keyframes walk {
+    to { background-position: -672px; }
+}
+
+@keyframes move2 {
+    0% { translate: 0 }
+    50% { translate: 600px }
+    100% { translate: 0 }
+}
+
+@keyframes mirror {
+    0% { scale: 1 1; }
+    50% { scale: -1 1; }
+}
